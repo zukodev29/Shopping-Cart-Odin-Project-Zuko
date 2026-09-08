@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6%;
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/*Code for class navbar*/
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/*Code for class logo*/
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+/*Code for class links*/
+
+.links a{
+    font-weight: 500;
+    transition: 0.2s ;
+}
+
+/*Code for class links and a elements*/
+
+.links a:hover{
+    opacity: 0.6;
+}
+
+/*Code for class links and a elements hover effect*/
+
+.cartLink{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/*Code for class cartLink*/
+
+.cartCount{
+    display: grid;
+    place-items: center;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0 0.35rem;
+    border-radius: 999px;
+    background-color: #111827;
+    color: white;
+    font-size: 0.75rem;
+}
+
+/*Code for class cartCount*/
+
+@media (max-width: 600px) {
+    .navbar{
+        padding: 1rem 5%;
+    }
+    
+    .links{
+        gap: 1rem;
+    }
+
+    .logo{
+        font-size: 1.25rem;
+    }
+}
+
+/*Code for responsive design for navbar, links and logo classes and all elements have max width of 600px*/
