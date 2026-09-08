@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+/*All elements on the page*/
+
+html,body,#root{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f6f7f9;
+    color: #1f2937;
+}
+
+/*Code for html, body and #root of the page*/
+
+button,input{
+    font: inherit;
+}
+
+/*Font for buttons on the page*/
+
+button{
+    cursor: pointer;
+}
+
+/*Cursor for buttons on the page*/
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*Code for images on the page*/
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Code for links on the page*/
