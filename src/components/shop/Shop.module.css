@@ -1,0 +1,43 @@
+.shop{
+    width: min(1200px, 90%);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+/*Code for shop class*/
+
+.heading{
+    margin-bottom: 2rem;
+}
+
+/*Code for heading class*/
+
+.heading h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+/*Code for heading class and h1 element*/
+
+.heading p{
+    margin-top: 0.4rem;
+    color: #5b7280;
+}
+
+/*Code for heading class and paragraph element*/
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.5rem;
+}
+
+/*Code for products class*/
+
+.status{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.1rem;
+}
+
+/*Code for status class*/
