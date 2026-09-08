@@ -1,0 +1,65 @@
+.home {
+    width: min(1200px, 90%);
+    margin: 0 auto;
+}
+
+/*Code for home class*/
+
+.hero{
+    min-height: calc(10vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    padding-bottom: 5rem;
+}
+
+/*Code for hero class*/
+
+.eyebrow{
+    margin: 2rem 0 1rem;
+    color: #6b7280;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+}
+
+/*Code for eyebrow class*/
+
+.hero h1{
+    margin: 0;
+    font-size: clamp(2.75rem, 7vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.04rem;
+}
+
+/*Code for hero class and h1 element*/
+
+.description{
+    max-width: 500px;
+    margin: 1.5rem 0 2rem;
+    color: #6b7280;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/*Code for description class*/
+
+.shopButton{
+    align-items: flex-start;
+    padding: 0.85rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #111827;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*Code for shopButton class*/
+
+.shopButton:hover{
+    background-color: #374151;
+}
+
+/*Code for shopButton class hover effect*/
+
